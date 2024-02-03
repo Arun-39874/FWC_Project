@@ -5,8 +5,7 @@
 #points of a triangle
 
 
-import sys                                          #for path to external scripts
-sys.path.insert(0, 'codes/CoordGeo/')        #path to my scripts
+import sys
 import numpy as np
 import numpy.linalg as LA
 import matplotlib.pyplot as plt
