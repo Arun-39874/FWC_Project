@@ -8,7 +8,6 @@ import mpmath as mp
 #from line.params import *
 from params import *
 
-
 def dir_vec(A,B):
   return B-A
 
