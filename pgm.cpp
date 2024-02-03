@@ -75,7 +75,7 @@ void setup() {
     E=midpoint(C,A,m,n);
     F=midpoint(A,B,m,n);
     H=line_intersect(m3,B,m1,C,m,n); 
-    request->send(200, "text/html", "Text"+ "["String(D[0][0],2)+String(D[1][0],2) + "]"<br>"["String(E[0][0],2)+String(E[1][0],2) + "]"<br>"["String(F[0][0],2)+String(F[1][0],2) + "]"<br><a href=\"/\">Return to Home Page</a>");
+    request->send(200, "text/html", "The coordinates to the mid points of the sides of the triangle ABC are: "+ "["String(D[0][0],2)+String(D[1][0],2) + "]"<br>"["String(E[0][0],2)+String(E[1][0],2) + "]"<br>"["String(F[0][0],2)+String(F[1][0],2) + "]"<br><a href=\"/\">Return to Home Page</a>");
 
   });
   server.onNotFound(notFound);
