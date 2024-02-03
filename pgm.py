@@ -13,9 +13,9 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
 #local imports
-from line.funcs import *
-from triangle.funcs import *
-from conics.funcs import circ_gen
+from line_funcs import *
+from triangle_funcs import *
+from conics_funcs import circ_gen
 
 
 #if using termux
